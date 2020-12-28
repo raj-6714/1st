@@ -1,0 +1,35 @@
+addition of generating function
+
+adding generating function means to add two sequences term by term forming another sequence 
+which correspondce to another generating function formed by adding the two previous generating functions.
+
+ex :- 
+here are two sequences
+<1,1,1,1,...> first one is infinite 1s.
+<1,-1,1,-1,...> and another one is infinite sequence of alternating 1 and -1s.
+from previous result we know that 
+the sequence <1,1,1,1,...> corrosponds to the generating fn 1/(1-x)
+and
+the sequence <1,-1,1,-1,...> corrosponds to the generating fn 1/(1+x)
+
+by adding these two sequence we get the sequence <2,0,2,0,2,....>
+the generating fn corrosponding to this seq will be given by adding the two previous generating fn.
+1/(1-x) + 1/(1+x) = 2/ (1-x^2). 
+which is similar to the result obtained earlier.
+
+now,
+
+moving on to the next slide
+
+addition rule
+if 
+there is a series 
+<f0,f1,f2,f3,..> corrosponding to the generating fn F(x).
+and another series 
+<g0,g1,g2,g3,..> corrosponding to the generating fn G(x).
+then the addition should be
+<f0+g0, f1+g1, f2+g2, f3+g3,..> corrosponding to the generating fn F(x) +G(x).
+meaning the terms with same indexes are added  to make a single term.
+
+next topic.
+ 
